@@ -8,15 +8,15 @@ import Section from "./Components/section";
 const sec =[
      {
           title:"Skills",
-          desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum Dedicated and innovative Software Developer with 4of experience designing, developing, and deploying high-quality software solutions. Proficient in Programming Languages, Technologies, Tools,I am passionate about creating efficient, maintainable, and scalable code. Through a deep understanding of software engineering principles"     
-     },
-     {
-          title:"Experience",
-          desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum Dedicated and innovative Software Developer with 4of experience designing, developing, and deploying high-quality software solutions. Proficient in Programming Languages, Technologies, Tools,I am passionate about creating efficient, maintainable, and scalable code. Through a deep understanding of software engineering principles"          
+          desc:"Java, MySQL, Spring Boot, "
      },
      {
           title:"Education",
-          desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum Dedicated and innovative Software Developer with 4of experience designing, developing, and deploying high-quality software solutions. Proficient in Programming Languages, Technologies, Tools,I am passionate about creating efficient, maintainable, and scalable code. Through a deep understanding of software engineering principles"          
+          desc:"Recent graduate with a Bachelor's degree in Computer Science. Proficient in Java programming language, with a focus on object-oriented concepts. Solid understanding of data structures and algorithms. Enthusiastic learner, continuously exploring new technologies and programming paradigms."     
+},
+     {
+          title:"Experience",
+          desc:"Programming Languages: Java, Version Control: Git, Tools: IntelliJ IDEA, Eclipse, Basic understanding of HTML, CSS, and JavaScript"          
      }
 ]
 
@@ -28,7 +28,7 @@ const App = () => {
                <About/>
                {
                     sec.map((value)=>{
-                         <Section title={value.title} description={value.desc} />
+                        return <Section title={value.title} desc={value.desc} />
                     })
                }
           </div>

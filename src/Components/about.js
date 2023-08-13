@@ -7,13 +7,7 @@ const About = () =>{
         <div className="aboutme">
             <h1>About Me</h1>
             <img src={pic} alt="img" width="200" height="200" />
-            <p>Dedicated and innovative Software Developer with 4of experience designing, developing, 
-                and deploying high-quality software solutions. Proficient in Programming Languages, Technologies, Tools,
-                 I am passionate about creating efficient, maintainable, and scalable code. Through a deep understanding of 
-                 software engineering principles, I have successfully contributed to 4 projects across Industry/Domain,
-                  consistently delivering value by translating complex requirements into functional applications. 
-                A collaborative team player with a commitment to continuous learning and staying current with emerging technologies.
-            </p>
+            <p>Aspiring and motivated software developer with a passion for Java programming and a strong desire to contribute to innovative software solutions. Eager to apply my educational background in computer science and my self-motivated learning journey to real-world projects. My goal is to leverage my problem-solving skills and creativity to make a positive impact in the field of software development.</p>
         </div>
     )
 }
